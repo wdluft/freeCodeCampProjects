@@ -1,0 +1,62 @@
+body {
+	background: #f4bc42;
+	font-family: 'Share Tech Mono', monospace;
+}
+
+.container {
+	margin: 0 auto;
+	text-align: right;
+}
+
+#quoteBox {
+	background: #696969;
+	color: #f4f8ff;
+}
+
+#footer {
+	padding: 0px;
+	margin: 0px;
+	color: #333;
+}
+
+#madeBy {
+	color: #333;
+}
+
+.jumbotron {
+	margin-bottom: 0px;
+}
+
+#theQuote {
+	text-align: left;
+}
+
+#person {
+	text-align: right;
+}
+
+#quoteButton {
+	float: right;
+	color: #696969;
+}
+
+.btn-default {
+	background-color: #f4bc42;
+	border: 0px solid transparent;
+
+}
+
+#tweetThisButton {
+	float: left;
+	color: #f4bc42;
+}
+
+.fa-twitter-square {
+	float: left;
+	color: #f4bc42;
+}
+
+#theButtons {
+	margin-bottom: 10pxpx;
+	padding-bottom: 10px
+}

@@ -1,0 +1,77 @@
+body{
+	background-color: #082c6d;
+	padding-bottom: 70px;
+	font-family: 'Mukta Mahee', sans-serif;
+}
+
+h1{
+	color: #1dff00;
+	font-weight: bold;
+}
+
+.container{
+	text-align: center;
+	margin-top: 50px;
+	margin: 50px auto;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	background-color: #696969;
+	padding: 20px;
+	color: #e8e8e8;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+#userInput {
+	display: none;
+}
+
+#searchButton {
+	display: none;
+}
+
+.results {
+	border: 2px solid #1dff00;
+	padding: 5px;
+	margin: 10px;
+	text-align: left;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.fa-map-signs{
+	font-size: 2em;
+	color: #1dff00;
+}
+
+#userInput{
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 2px solid #1dff00;
+	padding: 5px 10px;
+	margin-bottom: 5px;
+	background-color: #696969;
+}
+
+div a {
+	color: #e8e8e8;
+	font-size: 1.5em;
+}
+
+div a:visited{
+	color: #e8e8e8;
+}
+
+h3 a {
+	color: #1dff00;
+}
+
+h3 a:visited{
+	color:  #1dff00;
+}
+
+h3 a:hover{
+	color: #e8e8e8;
+}

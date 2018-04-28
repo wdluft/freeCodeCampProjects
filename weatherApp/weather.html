@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Local Weather</title>
+
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="weatherApp.css">
+	<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+<body id="background">
+
+	<div class="container">
+		
+		<div id="headerBox">
+			<h1>Simple Weather App</h1>
+		</div>
+
+		<div id="weatherBox">
+			<div>
+				<h1>Current Location</h1>
+				<p id="currentLocation"></p>
+			</div>
+			<div>
+				<h1>Current Weather</h1>
+				<p id="currentDescription"></p>
+			</div>
+			<div>
+				<h1>Temperature</h1>
+				<p id="changeTemperature"><span id="temperature"></span><span id="temperatureUnit"></span></p>
+			</div>
+		</div>
+	</div>
+
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="https://codepen.io/wdluft/" target="_blank">W. Luft</a>
+				<a class="navbar-brand" href="https://twitter.com/IAmWillDL" target="_blank"><i class="fab fa-twitter"></i></a>
+			</div>
+			<div>
+				<p id="imageBy" class="navbar-text"></p>
+			</div>
+		</div>
+	</nav>
+
+    <script type="text/javascript" src="weatherApp.js"></script>
+
+</body>
+</html>

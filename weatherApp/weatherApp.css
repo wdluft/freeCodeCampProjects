@@ -1,0 +1,51 @@
+body {
+	font-family: 'Mukta Mahee', sans-serif;
+	background: url('https://images.unsplash.com/photo-1517483026677-0395f84fd4ce?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d7fcbe32fc242b79093fe1bdf3b4b878&auto=format&fit=crop&w=1350&q=80') no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	padding-bottom: 70px;
+}
+
+.container {
+	text-align: center;
+	color: white;
+}
+
+#headerBox {
+	width: 69%;
+	margin: 10px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	background-color: rgba(69, 69, 69, 0.69);
+	padding: 20px;
+}
+
+#headerBox h1 {
+	font-size: 3em;
+	text-decoration: none;
+}
+
+#weatherBox {
+	display: inline-block;
+	margin: 50px auto;
+	background: #f7f7f7;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	background-color: rgba(69, 69, 69, 0.69);
+	padding: 20px;
+}
+
+p {
+	display: inline-block;
+	font-size: 1.5em;
+}
+
+h1 {
+	text-decoration: underline;
+}
+
+#imageBy {
+	float: right;
+	font-size: 1em;
+}

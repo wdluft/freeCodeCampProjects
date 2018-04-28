@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Live Twitch Streams</title>
+
+
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="twitchApp.css">
+	<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div id="contentBox">
+			<div id="titleBar">
+				<h1>Twitch Channels</h1>
+			</div>
+			<div class="twitchChannel showAll" id="freecodecamp">
+			</div>
+			<div class="twitchChannel showAll" id="loadingreadyrun">
+			</div>
+			<div class="twitchChannel showAll" id="kate">
+			</div>
+			<div class="twitchChannel showAll" id="anch0r1">
+			</div>
+			<div class="twitchChannel showAll" id="unarmedoracle">
+			</div>
+			<div class="twitchChannel showAll" id="esl_sc2">
+			</div>
+			<button id="allButton">All</button>
+			<button id="onlineButton">Live</button>
+			<button id="offlineButton">Offline</button>
+		</div>
+	</div>
+
+
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="https://codepen.io/wdluft/" target="_blank">W. Luft</a>
+				<a class="navbar-brand" href="https://twitter.com/IAmWillDL" target="_blank"><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>
+	</nav>
+
+	<script type="text/javascript" src="twitchApp.js"></script>
+	<!-- <script type="text/javascript" src="twitchApp_v2.js"></script> -->
+
+</body>
+</html>

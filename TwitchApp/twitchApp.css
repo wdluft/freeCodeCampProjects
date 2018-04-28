@@ -1,0 +1,121 @@
+body{
+	padding-bottom: 70px;
+	font-family: 'Mukta Mahee', sans-serif;
+	background: #6441A5;  /* fallback for old browsers */
+	background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  /* Chrome 10-25, Safari 5.1-6 */
+	background: linear-gradient(to right, #2a0845, #6441A5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+h1 {
+	background: #6441A5;
+	color: white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px 20px;
+	text-transform: uppercase;
+	font-size: 24px;
+	font-weight: bold;
+	border: 1px solid black;
+	text-align: center;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+ul {
+	list-style: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+li {
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	margin: 5px 2px;
+	border: 1px solid black;
+	padding: 5px 10px;
+}
+
+input {
+	font-size: 18px;
+	background-color: #f7f7f7;
+	width: 100%;
+	box-sizing: border-box;
+	color: #2980b9;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	padding: 5px 10px;
+}
+
+input:focus {
+	background: #fff;
+	border: 3px solid #6441A5;
+	outline: none;
+}
+
+.container{
+	width: 50%;
+	margin: 100px auto;
+	background: #696969;
+	box-shadow: 0 0 3px rgba(0,0,0, 0.1);
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.online{
+	background-color: #38b9ff;
+	color: white;
+}
+
+.offline{
+	background-color: #f97577;
+	color: white;
+}
+
+.isStreaming{
+	display: inline-block;
+}
+
+.channelLogo{
+	width: 50px;
+	height: 50px;
+}
+
+.streamerName{
+	display: inline-block;
+	padding-left: 5px;
+}
+
+.fa-trash{
+	margin-right: 5px;
+}
+
+li a{
+	color: white;
+	font-weight: bold;
+}
+
+li a:visited{
+	color: white;
+	font-weight: bold;
+}
+
+/*==========*/
+/*STYLES FOR BUTTONS*/
+button {
+	text-align: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.active{
+	background-color: #c0b1db;
+}
+
+#theButtons{
+	margin: 0px 5px 10px 5px;
+}

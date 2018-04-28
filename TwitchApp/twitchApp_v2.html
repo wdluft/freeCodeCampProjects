@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Live Twitch Streams</title>
+
+
+	<link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Mukta+Mahee:400,700&amp;subset=latin-ext" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="twitchApp.css">
+
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+
+	<div class="container">
+		<div id="contentBox">
+			<div id="titleBar">
+				<h1> <i class="fab fa-twitch"></i> Twitch Channels <i class="fab fa-twitch"></i> </h1>
+			</div>
+
+			<div>
+				<input type="text" placeholder="Add New Channel" required pattern=.*\S+.*">
+			</div>
+
+			<ul id="listOfChannels">
+				<li id="freecodecamp">
+					<span><i class='fa fa-trash'></i></span>
+				</li>
+				<li id="loadingreadyrun">
+					<span><i class='fa fa-trash'></i></span>
+				</li>
+				<li id="unarmedoracle">
+					<span><i class='fa fa-trash'></i></span>
+				</li>
+				<li id="esl_sc2">
+					<span><i class='fa fa-trash'></i></span>
+				</li>
+			</ul>
+
+			<div class="row" id="theButtons">
+				<button class="col-md-4 active" id="allButton">All</button>
+				<button class="col-md-4" id="onlineButton">Live</button>
+				<button class="col-md-4" id="offlineButton">Offline</button>
+			</div>
+		</div>
+	</div>
+
+
+	<nav class="navbar navbar-inverse navbar-fixed-bottom">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="https://codepen.io/wdluft/" target="_blank">W. Luft</a>
+				<a class="navbar-brand" href="https://twitter.com/IAmWillDL" target="_blank"><i class="fab fa-twitter"></i></a>
+			</div>
+		</div>
+	</nav>
+
+	<script type="text/javascript" src="twitchApp_v2.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+USER STORIES
+
+1. Click a button/link to open a random Wikipedia article
+	-can be done just through HTML
+
+2. Seach Wikipedia entries in a search box and see the resulting entries
+	-HTML
+		-input box
+		-submit button
+			-can also submit search by hitting "enter"
+		-Display resulting entries
+			-max results
+			-what to display if there aren't any results
+	-JavaScript
+		-access Wikipedia API
+			-https://www.mediawiki.org/wiki/API:Search_and_discovery
+		-grab search term from form and pass to API
+			-search contents of articles and list by popularity
+			-search by article titles
+		-store the results in an object
+			-object should include the title of the page, brief description, link to the article
+		-loop through results and display on page
+			-each should be in own box, bold title
