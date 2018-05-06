@@ -24,11 +24,19 @@ function sym(args) {
     var symmetricDiff = [];
 
     function allInOne(arr){
+
+        tempArr = [];
         for(var i = 0; i < arr.length; i++){
-            index = symmetricDiff.indexOf(arr[i]);
+            if(tempArr.indexOf(arr[i]) == -1){
+                tempArr.push(arr[i]);
+            }
+        }
+
+        for(var i = 0; i < tempArr.length; i++){
+            index = symmetricDiff.indexOf(tempArr[i]);
             console.log(index);
             if(index === -1){
-                symmetricDiff.push(arr[i]);
+                symmetricDiff.push(tempArr[i]);
                 console.log(symmetricDiff);
             } else if(index > -1){
                 symmetricDiff.splice(index, 1);
