@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>freeCodeCamp Survey Form Project</title>
+
+	<link rel="stylesheet" type="text/css" href="surveyForm.css">
+	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</head>
+<body>
+	<div id="wholeThing">
+	<h1 id="title">Survey Form</h1>
+	<div>
+		<p id="description">How do you like Magic the Gathering?</p>
+		<div>
+			<form id="survey-form">
+				<div>
+					<label id="name-label" for="name">* Name: </label>
+					<input id="name" type="text" placeholder="Enter your name" required="required">					
+				</div>
+				<br>
+				<hr class="style13">
+				<div>
+					<label id="email-label" for="email">* Email: </label>
+					<input id="email" type="email" placeholder="Enter your email" required="requered">
+				</div>
+				<br>
+				<hr class="style13">
+				<div>
+					<label id="number-label" for="number">Age: </label>
+					<input type="number" id="number" placeholder="Enter your age" min="0" max="150">
+				</div>
+				<br>
+				<hr class="style13">
+				<div>
+					<label for="dropdown">Which option best describes your playstyle?</label>
+					<select id="dropdown" name="currentRole">
+						<option value="timmy">Timmy/Tammy</option>
+						<option value="johnny">Johnny/Jenny</option>
+						<option value="spike">Spike</option>
+						<option value="mel">Melvin/Melanie</option>
+						<option value="vorthos">Vorthos</option>
+					</select>
+				</div>
+				<br>
+				<hr class="style13">
+				<div class="recommendation">
+					<p>* How likely will you recommend Magic the Gathering to a friend?</p>
+					<label for="definitely">
+						<input type="radio" id="definitely" name="recommendation" value="definitely"> Definitely
+					</label>
+					<label for="maybe">
+						<input type="radio" id="maybe" name="recommendation" value="maybe"> Maybe
+					</label>
+					<label for="notSure">
+						<input type="radio" id="notSure" name="recommendation" value="notSure"> Not Sure
+					</label>
+				</div>
+				<br>
+				<hr class="style13">
+				<div class="checkboxes">
+					<p> What formats do you play? (Check all that apply): </p>
+					<label for="standard">
+						<input type="checkbox" id="standard" name="toBeImproved" value="standard"> <span>Standard</span>
+					</label>
+					<label for="modern">
+						<input type="checkbox" id="modern" name="toBeImproved" value="modern"> <span>Modern</span>
+					</label>
+					<label for="Commander">
+						<input type="checkbox" id="Commander" name="toBeImproved" value="Commander"> <span>Commander (EDH)</span>
+					</label>
+					<label for="canLander">
+						<input type="checkbox" id="canLander" name="toBeImproved" value="canLander"> <span>Canadian Highlander</span>
+					</label>
+					<label for="draft">
+						<input type="checkbox" id="draft" name="toBeImproved" value="draft"> <span>Draft</span>
+					</label>
+					<label for="pauper">
+						<input type="checkbox" id="pauper" name="toBeImproved" value="pauper"> <span>Pauper</span>
+					</label>
+				</div>
+				<br>
+				<hr class="style13">
+				<div>
+					<label id="commentsLabel" for="additionalComments">Any Comments or Suggestions?</label>
+					<textarea id="additionalComments" name="comments">Enter your comment(s) here...</textarea>
+				</div>
+				<div class="button">
+					<button id="submit" type="submit">Submit</button>
+				</div>
+			</form>
+		</div>
+	</div>
+	</div>
+
+</body>
+</html>
