@@ -1,0 +1,98 @@
+body{
+	display: flex;
+}
+
+h1, h2{
+	text-align: center;
+}
+
+.container{
+	padding-top: 70px;
+}
+
+.centered{
+	width: 600px;
+	margin: 0 auto;
+}
+
+#product-page-title{
+	text-align: center;
+}
+
+@media (max-width: 600px){
+	#product-page-title{
+		width: 300px;
+	}
+}
+
+#header-img{
+	width: 10%;
+	height: 10%;
+}
+
+#video{
+	margin-bottom: 25px;
+}
+
+#email-form{
+	padding-bottom: 50px;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: left;
+}
+
+input {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+input:focus {
+  border-color: #000;
+}
+
+#pricing-box{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	text-align: center;
+}
+
+.pricing-boxes{
+	padding: 10px;
+	margin: 5px;
+	border: 1px solid #696969;
+	width: 30%;
+	height: 300px;
+}
+
+#just-anchor{
+	background: #d3c5f7;
+}
+
+#anchor-rope{
+	background: #ecc5f7;
+}
+
+#anchor-chain{
+	background: #c5d0f7;
+}
+
+hr.style13 {
+  height: 10px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+  /*designed by Ibrahim Jabbari - https://codepen.io/ibrahimjabbari/pen/ozinB*/
+}

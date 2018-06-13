@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Product Landing Page Project</title>
+
+	<link rel="stylesheet" type="text/css" href="productLanding.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+	<script type="text/javascript" src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</head>
+<body>
+
+	<header id="header">
+		<nav id="nav-bar" class="navbar navbar-default navbar-fixed-top">
+			<div class="container-fluid">
+		    	<div class="navbar-header">
+		      		<img id="header-img"src="https://upload.wikimedia.org/wikipedia/commons/6/62/Anchor_pictogram.svg">
+		      		<a class="navbar-brand" href="#">Anchors Away</a>
+		    	</div>
+		        <ul class="nav navbar-nav navbar-right">
+				    <li><a href="#anchorVideo" class="nav-link">How anchors work</a>
+		       		<li><a href="#form" class="nav-link" >More Info</a>
+		        	<li><a href="#pricing" class="nav-link">Pricing</a>
+		    	</ul>
+		  	</div>
+		</nav>
+	</header>
+
+	<div class="container">
+		<div id="product-page-title" class="centered">
+			<h1>Anchors Away</h1>
+			<p>Sellling anchors to keep your ship in place</p>
+		</div>
+
+		<br>
+		<hr class="style13">
+
+		<div id="anchorVideo" class="centered">
+			<h2>How do anchors work?</h2>
+			<!-- add embedded product video -->
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/5XaGaHX_20A" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			<p>An anchor is a device, normally made of metal, used to connect a vessel to the bed of a body of water to prevent the craft from drifting due to wind or current. Anchors achieve holding power either by "hooking" into the seabed, via sheer mass, or a combination of the two.</p>
+		</div>
+
+		<br>
+		<hr class="style13">
+
+		<div id="pricing" class="centered">
+			<h2>Pricing</h2>
+			<div id="pricing-box">
+				<div id="just-anchor" class="pricing-boxes">
+					<h4>Anchor Alone</h4>
+					<p>This is just an anchor made of iron, with no acessories. You'll have to buy the rope or chain to attach the anchor to your ship separately. Ideally used as a lawn decoration.</p>
+					<h5><strong>$567.89</strong></h5>
+				</div>
+				<div id="anchor-rope" class="pricing-boxes">
+					<h4>Anchor and Rope</h4>
+					<p>An iron anchor with a rope so you can attach it to your ship. The rope is thick, braided hemp that is extremely long. </p>
+					<h5><strong>$1,234.56</strong></h5>
+				</div>
+				<div id="anchor-chain" class="pricing-boxes">
+					<h4>Anchor and Chain</h4>
+					<p>An iron anchor with a long steel chain. This is the strongest and longest lasting option for serious pirates. This is an Admiralty Pattern anchor that will last longer than the ship.</p>
+					<h5><strong>$2,345.67</strong></h5>
+				</div>
+			</div>
+		</div>
+
+		<br>
+		<hr class="style13">
+
+		<div id="email-form" class="centered">
+			<h2>For more information or to submit an order</h2>
+			<form id="form" action="https://www.freecodecamp.com/email-submit">
+				<div class=form-group>
+					<label for="email">Email: </label>
+					<input id="email" type="email" name="email" placeholder="Enter Your Email Address">
+				</div>
+				<input id="submit" type="submit" value="Submit Email">
+			</form>
+		</div>
+	</div>
+
+
+</body>
+</html>
